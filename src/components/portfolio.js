@@ -66,7 +66,7 @@ export default class Portfolio extends React.Component{
               <p>Overwatch Buddy is an application that allows users to customize, build, and save teams using heroes from Blizzard's Overwatch.</p> 
               <p>It is a tool to help users get further insight into the mechanics of Overwatch team builds by providing firm number statistics for each team and allowing users to add notes to give personal opinions and plans for future builds.</p>
             </div>
-            <img className='project-img' src='https://i.imgur.com/90Xi74t.png' alt='Overwatch Buddy' ></img>
+            <img className='project-img' src='https://i.imgur.com/HXeh6wo.png' alt='Overwatch Buddy' ></img>
             <div className='tech-stack'>
               <h4 className='tech-title'>Tech Stack</h4>
               <h4>Front-End:</h4>
