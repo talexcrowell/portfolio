@@ -350,3 +350,14 @@ h3 {
   border:2px white solid;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 740px){
+  .home{
+    margin-top: 180px;
+  }
+  .h2{
+    margin-top: 160px;
+    margin-bottom:40px;
+    text-decoration: underline;
+  }
+}

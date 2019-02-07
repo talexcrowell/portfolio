@@ -63,8 +63,8 @@ export default class Portfolio extends React.Component{
             <div className='project-description'>
               <a className='live-link' href='https://overwatch-buddy.herokuapp.com/'><h3>Overwatch Buddy</h3></a>
               <a className='github-repo' href='https://github.com/talexcrowell/ow-team-app-client' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
-              <p>Overwatch Buddy is an application that allows users to customize, build, and save teams using Heroes from Blizzard's Overwatch.</p> 
-              <p>It is a tool to help users get further insight into the mechanics of Overwatch team builds by providing firm number statistics for each team build and allows users to add notes to give personal opinions and plan for future builds. Planned features</p>
+              <p>Overwatch Buddy is an application that allows users to customize, build, and save teams using heroes from Blizzard's Overwatch.</p> 
+              <p>It is a tool to help users get further insight into the mechanics of Overwatch team builds by providing firm number statistics for each team and allowing users to add notes to give personal opinions and plans for future builds.</p>
             </div>
             <img className='project-img' src='https://i.imgur.com/90Xi74t.png' alt='Overwatch Buddy' ></img>
             <div className='tech-stack'>
