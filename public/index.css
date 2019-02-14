@@ -187,7 +187,7 @@ a:visited{
 
 .project-img {
   vertical-align: middle;
-  min-width: 300px;
+  min-width: 250px;
   max-width: 820px;
   width: 100%;
   height: auto;
@@ -343,10 +343,19 @@ h2 {
   margin-top: 80px;
   margin-bottom:40px;
   text-decoration: underline;
+  font-style: italic;
 }
 
 h3 {
   text-align: center;
+  font-style: italic;
+}
+
+h5{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .about-description{
@@ -357,7 +366,7 @@ h3 {
 .github-repo{
   display: block;
   box-sizing: border-box;
-  width:60px;
+  width: 70px;
   height:auto;
   margin-top: 5px;
   margin-left: auto;
@@ -387,6 +396,14 @@ h3 {
   border-radius: 5px;
 }
 
+.live-link-direct{
+  text-decoration: none;
+}
+
+.live-link-direct:hover{
+  color: grey;
+}
+
 @media screen and (max-width: 860px){
   .home{
     margin-top: 140px;
@@ -394,6 +411,8 @@ h3 {
   .nav-nameplate{
     display: inline-block;
     width: 100%;
+    max-width:860px;
+    min-width: 300px;
     padding-left: 5px;
     padding-right: 5px;
     float: left;
@@ -415,7 +434,16 @@ h3 {
     display: none;
   }
 
+  .nav-direction-right:hover{
+    background: black;
+    color:black;
+  }
   
+
+  .nav-direction-right:visited{
+    color: black;
+    text-decoration: none;
+  }
 
 }
 
@@ -441,6 +469,7 @@ h3 {
     height: 40px;
     width: 100%;
     max-width: 414px;
+    min-width: 300px;
     font-size: 20px;
     border-top: 1px white solid;
     vertical-align: middle;

@@ -8,6 +8,7 @@ export default class Portfolio extends React.Component{
           <div className='project'>
           <div className='project-description'>
             <a className='live-link' href='https://the-friend-zone-app.herokuapp.com' target='_blank' rel='noopener noreferrer'><h3>The Friend Zone</h3></a>
+            <a className='live-link-direct' href='https://the-friend-zone-app.herokuapp.com' target='_blank' rel='noopener noreferrer'><h5>(Link)</h5></a>
             <a className='github-repo' href='https://github.com/the-friendzone-app' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
             <img className='project-img' src='https://i.imgur.com/mTl1PZX.png' alt='The Friend Zone' ></img>
             <p>The Friend Zone is an approach to social media to help people build platonic friendships through the comfort of basic anonymity.</p>
@@ -38,6 +39,7 @@ export default class Portfolio extends React.Component{
         <div className='project'>
           <div className='project-description'>
             <a className='live-link' href='https://noted-client.herokuapp.com' target='_blank' rel='noopener noreferrer'><h3>Noted</h3></a>
+            <a className='live-link-direct' href='https://noted-client.herokuapp.com' target='_blank' rel='noopener noreferrer'><h5>(Link)</h5></a>
             <a className='github-repo' href='https://github.com/thinkful-ei25/noted-client-sean-alex' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
             <img className='project-img' src='https://i.imgur.com/0rtvoY8.png' alt='Noted' ></img>
             <p>Noted is an application focused on helping users learn musical notation and improve their skills as a classical musician.</p>
@@ -61,7 +63,8 @@ export default class Portfolio extends React.Component{
         </div>
           <div className='project'>
             <div className='project-description'>
-              <a className='live-link' href='https://overwatch-buddy.herokuapp.com/'><h3>Overwatch Buddy</h3></a>
+              <a className='live-link' href='https://overwatch-buddy.herokuapp.com/'  target='_blank' rel='noopener noreferrer'><h3>Overwatch Buddy</h3></a>
+              <a className='live-link-direct' href='https://overwatch-buddy.herokuapp.com/'  target='_blank' rel='noopener noreferrer'><h5>(Link)</h5></a>
               <a className='github-repo' href='https://github.com/talexcrowell/ow-team-app-client' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
               <img className='project-img' src='https://i.imgur.com/HXeh6wo.png' alt='Overwatch Buddy' ></img>
               <p>Overwatch Buddy is an application that allows users to customize, build, and save teams using heroes from Blizzard's Overwatch.</p> 
