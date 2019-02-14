@@ -98,11 +98,13 @@ a:visited{
   font-size: 30px;
   height: 50px;
   width: 195px;
-  display: block;
+  display: inline-block;
   padding: 20px;
-  float: left;
   text-align: center;
-  border-right: 2px whitesmoke solid;
+  margin: 0;
+  color: white;
+  float: left;
+  clear: right;
 }
 
 .nav-direction{
@@ -122,14 +124,15 @@ a:visited{
 .nav-direction-right{
   font-size: 28px;
   height: 50px;
-  display: block;
+  display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 7px;
   padding-right: 7px;
-  float: left;
+  float: right;
   text-align: center;
-  border-right: 2px whitesmoke solid;
+  vertical-align: middle;
+  border-left: 2px whitesmoke solid;
 }
 
 .profile-pic{
@@ -274,12 +277,28 @@ h4{
   display: inline-block;
   background-image: url(./resources/resume.png);
   background-repeat: no-repeat;
-  width: 30px;
-  height: 30px; 
-  padding: 10px;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  padding: 2.5px;
+  box-sizing: border-box;
   margin: 0 auto;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.nav-resume-text {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  height: auto;
+}
+
+.nav-dropdown{
+  display: none;
+}
+.nav-dropdown-container{
+  display: none;
 }
 
 .nav-email {
@@ -309,8 +328,15 @@ h4{
 .contact::before{
   content: " ";
   display: block;
-  height: 90px;
-  margin: -90px 0 0;
+  height: 100px;
+  margin: -100px 0 0;
+}
+
+.about::before{
+  content: " ";
+  display: block;
+  height: 300px;
+  margin: -300px 0 0;
 }
 
 h2 {
@@ -361,13 +387,61 @@ h3 {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 860px){
   .home{
-    margin-top: 180px;
+    margin-top: 140px;
   }
-  .h2{
-    margin-top: 160px;
-    margin-bottom:40px;
-    text-decoration: underline;
+  .nav-nameplate{
+    display: inline-block;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+  }
+
+  .nav-direction-right{
+    background-color: grey;
+    float: right;
+    text-align: center;
+    padding: 0;
+    width: 33.1%;
+    font-size: 24px;
+    border-top: 1px white solid;
+    border-left: .5px white solid;
+    border-right: .5px white solid;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 414px){
+  .home{
+    margin-top: 200px;
+  }
+
+  .about-description{
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .project-description{
+    font-size: 20px;
+  }
+
+  .nav-direction-right{
+    text-align: center;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    max-width: 414px;
+    font-size: 20px;
+    border-top: 1px white solid;
+    vertical-align: middle;
   }
 }
