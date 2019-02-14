@@ -12,9 +12,10 @@ export default class AboutMe extends React.Component{
         </p>
         <p className='about-description'>
         I was born and raised in Albuquerque, New Mexico and attended University of New Mexico where I graduated with my Bachelor's of Science in Biology. 
-        After a few years of different jobs, I felt the need to discover more about myself and how I can use technology to help others. 
+        After a few years of different jobs, I felt the need to discover more about myself and how I can use technology to help others.
+        The key to achieving those goals is to work with others to  learn and build a quality project. Working with a team brings an opportunity to learn new techniques, understand different approaches to a problem, and potentially teach others some personal tricks to add to their engineering toolbox.
         This led me to enter the the world of web development and cyber security.
-        I am passionate about protecting people in their everyday use of digital resources.
+        I am passionate about innovation and protecting people in their everyday use of digital resources.
         </p>
         <p className='about-description'>
         Thank you for visiting my portfolio and please feel free to contact me if you have any questions :)  
