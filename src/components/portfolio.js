@@ -5,6 +5,32 @@ export default class Portfolio extends React.Component{
     return(
       <section className='portfolio' id='portfolio'>
         <h2>Projects</h2>
+        <div className='project'>
+        <div className='project-description'>
+          <a className='live-link' href='https://github.com/talexcrowell/NeighbourHound' target='_blank' rel='noopener noreferrer'><h3>NeighborHound</h3></a>
+          <h5>Not live yet :( (Hoping to deploy soon!)</h5>
+          <a className='github-repo' href='https://github.com/talexcrowell/NeighbourHound' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
+          <img className='project-img' src='https://i.imgur.com/oCVzDSC.png' alt='NeighborHound' ></img>
+          <p>NeighborHound is an application built to aggregate news and community postings.</p>
+          <p>This project is based on having access to both news sources and content from communities and be able to mix or separate them. This includes a side-project called 'REX', an application to help find recommendations for different media.</p>
+          <p>P.S. I designed the NeighborHound logo too :)</p>
+        </div>
+        <div className='tech-stack'>
+          <h4 className='tech-title'>Tech Stack</h4>
+          <h4>Front-End:</h4>
+          <p className='tech'>React</p>
+          <p className='tech'>Redux</p>
+          <p className='tech'>CSS</p>
+          <h4>Back-End:</h4>
+          <p className='tech'>Node.js</p>
+          <p className='tech'>Express.js</p>
+          <p className='tech'>PostgreSQL</p>
+          <p className='tech'>Knex.js</p>
+          <p className='tech'>Passport</p>
+          <p className='tech'>Express</p>
+          <p className='tech'>JWT</p>
+        </div>
+      </div>
           <div className='project'>
           <div className='project-description'>
             <a className='live-link' href='https://the-friend-zone-app.herokuapp.com' target='_blank' rel='noopener noreferrer'><h3>The Friend Zone</h3></a>
