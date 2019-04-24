@@ -13,8 +13,8 @@ export default class Portfolio extends React.Component{
           <div className='img-container'>
             <img className='project-img' src='https://i.imgur.com/oCVzDSC.png' alt='NeighborHound' ></img>
           </div>
-          <p>NeighborHound is an application built to aggregate news and community postings.</p>
-          <p>This project is based on having access to both news sources and content from communities and be able to mix or separate them. This includes a side-project called 'REX', an application to help find recommendations for different media.</p>
+          <p>NeighborHound is an application composed of two projects.</p>
+          <p>NH News collects news and community content, and allows users to save content and build custom feeds. NH Rex helps users to find recommendations for different media and keep track of interested media.</p>
           <p>P.S. I designed the NeighborHound logo too :)</p>
         </div>
         <div className='tech-stack'>
@@ -69,7 +69,9 @@ export default class Portfolio extends React.Component{
             <a className='live-link' href='https://noted-client.herokuapp.com' target='_blank' rel='noopener noreferrer'><h3>Noted</h3></a>
             <a className='live-link-direct' href='https://noted-client.herokuapp.com' target='_blank' rel='noopener noreferrer'><h5>(Link)</h5></a>
             <a className='github-repo' href='https://github.com/thinkful-ei25/noted-client-sean-alex' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
+            <div className='img-container'>
             <img className='project-img' src='https://i.imgur.com/0rtvoY8.png' alt='Noted' ></img>
+            </div>
             <p>Noted is an application focused on helping users learn musical notation and improve their skills as a classical musician.</p>
             <p>The learning experience comes from utilizing a spaced repetition algorithm and allowing users to be exposed more frequently to questions they may have missed.</p>
           </div>
@@ -94,7 +96,9 @@ export default class Portfolio extends React.Component{
               <a className='live-link' href='https://overwatch-buddy.herokuapp.com/'  target='_blank' rel='noopener noreferrer'><h3>Overwatch Buddy</h3></a>
               <a className='live-link-direct' href='https://overwatch-buddy.herokuapp.com/'  target='_blank' rel='noopener noreferrer'><h5>(Link)</h5></a>
               <a className='github-repo' href='https://github.com/talexcrowell/ow-team-app-client' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
+              <div className='img-container'>
               <img className='project-img' src='https://i.imgur.com/HXeh6wo.png' alt='Overwatch Buddy' ></img>
+              </div>
               <p>Overwatch Buddy is an application that allows users to customize, build, and save teams using heroes from Blizzard's Overwatch.</p> 
               <p>It is a tool to help users get further insight into the mechanics of Overwatch team builds by providing firm number statistics for each team and allowing users to add notes to give personal opinions and plans for future builds.</p>
             </div>
