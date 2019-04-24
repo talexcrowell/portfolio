@@ -10,7 +10,9 @@ export default class Portfolio extends React.Component{
           <a className='live-link' href='https://github.com/talexcrowell/NeighbourHound' target='_blank' rel='noopener noreferrer'><h3>NeighborHound</h3></a>
           <h5>Not live yet :( (Hoping to deploy soon!)</h5>
           <a className='github-repo' href='https://github.com/talexcrowell/NeighbourHound' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
-          <img className='project-img' src='https://i.imgur.com/oCVzDSC.png' alt='NeighborHound' ></img>
+          <div className='img-container'>
+            <img className='project-img' src='https://i.imgur.com/oCVzDSC.png' alt='NeighborHound' ></img>
+          </div>
           <p>NeighborHound is an application built to aggregate news and community postings.</p>
           <p>This project is based on having access to both news sources and content from communities and be able to mix or separate them. This includes a side-project called 'REX', an application to help find recommendations for different media.</p>
           <p>P.S. I designed the NeighborHound logo too :)</p>

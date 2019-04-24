@@ -181,16 +181,17 @@ a:visited{
 .project-description {
   display: inline-block;
   font-size: 24px;
-  text-align: left;
   padding: 20px;
 }
-
-.project-img {
-  vertical-align: middle;
-  min-width: 250px;
-  max-width: 800px;
+.img-container{
+  display: inline-block;
   width: 100%;
-  margin: 10px;
+}
+.project-img {
+  min-width: 250px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0;
   height: auto;
   border-radius: 4px;
 }
