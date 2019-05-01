@@ -14,7 +14,7 @@ export default class Portfolio extends React.Component{
             <img className='project-img' src='https://i.imgur.com/oCVzDSC.png' alt='NeighborHound' ></img>
           </div>
           <p>NeighborHound is an application composed of two projects.</p>
-          <p>NH News collects news and community content, and allows users to save content and build custom feeds. NH Rex helps users to find recommendations for different media and keep track of interested media.</p>
+          <p>Fetch collects news and community content, and allows users to save content and build custom feeds. Rex helps users to find recommendations for different media and keep track of interested media.</p>
           <p>P.S. I designed the NeighborHound logo too :)</p>
         </div>
         <div className='tech-stack'>
