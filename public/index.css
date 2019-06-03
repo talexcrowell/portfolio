@@ -165,18 +165,25 @@ a:visited{
  margin-bottom: 50px;
 }
 
+.projects-container{
+  margin-top: 10px;
+}
+
 .project {
   display: inline-block;
+  vertical-align: top;
   max-width: 900px;
   min-width: 260px;
-  width:90%;
+  width:30%;
   border-radius: 46px;
   border: 2px whitesmoke solid;
   background: black;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 0 auto;
-  margin-right: 0  auto;
+  margin: 5px;
+}
+
+.project:hover{
+  background: #282828;
+  transition-duration: background .35s ease-in-out;
 }
 
 .project-description {
@@ -184,15 +191,42 @@ a:visited{
   font-size: 24px;
   padding: 20px;
 }
+
+.project-details{
+  text-align: left;
+  font-size: 22px;
+}
+
 .img-container{
   display: inline-block;
   width: 100%;
 }
+
+.img-container:hover{
+  cursor: pointer;
+}
+
+.img-background{
+  display: inline-block;
+  background: gainsboro;
+  max-width: 250px;
+  height: 250px;
+  border-radius: 4px;
+}
+
 .project-img {
-  min-width: 250px;
-  max-width: 600px;
+  display: inline-block;
+  max-width: 250px;
   width: 100%;
-  margin: 0;
+  height: auto;
+  border-radius: 4px;
+}
+
+.logo-img {
+  margin-top:60px;
+  display: inline-block;
+  max-width: 250px;
+  width: 90%;
   height: auto;
   border-radius: 4px;
 }
@@ -204,8 +238,40 @@ h4{
   margin-bottom: 10px;
 }
 
-.tech-stack{
-  text-align: center;
+.details-modal{
+  display: inline-block;
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.details-modal-content {
+  max-width: 720px;
+  background: black;
+  margin: 5% auto; 
+  padding: 20px;
+  border: 4px solid gainsboro;
+  width: 70%; 
+}
+
+.details-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.details-close:hover,
+.details-close:focus {
+  color: darkred;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .tech-title {
@@ -237,6 +303,20 @@ h4{
 .github {
   display: inline-block;
   background-image: url(./resources/github.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  padding: 2.5px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+
+.private {
+  display: inline-block;
+  background-image: url(./resources/lock.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 55px;
@@ -369,15 +449,22 @@ h5{
 .github-repo{
   display: block;
   box-sizing: border-box;
-  width: 70px;
+  width: 100%;
   height:auto;
-  margin-top: 5px;
   margin-left: auto;
   margin-right:auto;
-  margin-bottom: 5px;
   padding:5px;
 }
 
+.private-repo{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height:auto;
+  margin-left: auto;
+  margin-right:auto;
+  padding:5px;
+}
 
 .email:hover{
   border:2px white solid;

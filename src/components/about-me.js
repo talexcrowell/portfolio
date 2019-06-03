@@ -16,7 +16,7 @@ export default class AboutMe extends React.Component{
         I am passionate about innovation and protecting people in their everyday use of digital resources.
         </p>
         <p className='about-description'>
-        This led me to enter the world of web development and cyber security.
+        This led me to enter the world of software development and cyber security.
         The key to achieving these goals is to work with others and build a quality project. 
         Working with a team brings an opportunity to learn new techniques, understand different approaches to a problem, and potentially teach others some personal tricks to add to their engineering toolbox.
         </p>
