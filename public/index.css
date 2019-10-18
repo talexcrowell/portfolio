@@ -314,6 +314,20 @@ h4{
   box-sizing: border-box;
 }
 
+.gitlab{
+  display: inline-block;
+  background-image: url(./resources/gitlab.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  padding: 2.5px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+
 .private {
   display: inline-block;
   background-image: url(./resources/lock.png);

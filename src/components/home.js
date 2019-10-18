@@ -15,6 +15,7 @@ export default class Home extends React.Component{
             <a href='mailto:talexcrowell@gmail.com'><i className='email'/></a>
             <a href='https://www.linkedin.com/in/t-alexander-crowell-01885b162' target='_blank' rel='noopener noreferrer'><i className='linkedin'/></a>
             <a href='https://github.com/talexcrowell' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
+            <a href='https://gitlab.com/talexcrowell' target='_blank' rel='noopener noreferrer'><i className='gitlab'/></a>
           </section>
         </div>
         <AboutMe />
